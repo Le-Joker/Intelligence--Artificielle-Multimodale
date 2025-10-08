@@ -1,0 +1,10 @@
+ultralytics==8.2.50      # YOLOv8 pour la détection
+deepface==0.0.93         # Reconnaissance faciale
+opencv-python==4.10.0.84 # Gestion de la caméra
+pyttsx3==2.90            # Text-to-Speech offline
+gTTS==2.5.3              # Text-to-Speech online
+whisper==1.1.10          # Reconnaissance vocale Whisper
+torch==2.4.0             # Backend IA pour YOLO et Whisper
+numpy==1.26.4            # Calculs matriciels
+pandas==2.2.2            # Manipulation de données
+flask==3.0.3             # Interface web (optionnelle)
