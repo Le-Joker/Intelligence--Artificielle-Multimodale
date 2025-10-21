@@ -14,9 +14,7 @@ Le système s’appuie sur plusieurs modules complémentaires :
 - **YOLOv8** pour la détection des visages,  
 - **DeepFace** pour l’identification,  
 - **Whisper** pour la reconnaissance vocale,  
-- **Text-to-Speech (pyttsx3)** pour la réponse vocale.
-- **Flask(Python)** pour l'interface graphique (web).  
-
+- et **Text-to-Speech (pyttsx3)** pour la réponse vocale.  
 
 ---
 
@@ -52,8 +50,6 @@ Le système s’appuie sur plusieurs modules complémentaires :
 │     └── ...
 │
 ├── /models/                   # Poids YOLO / modèles DeepFace
-├── /templates/                # Pour Flask(HTML)
-├── /Static/                   # CSS, JS, images
 │
 ├── /scripts/
 │     ├── face_recognition.py  # YOLO + DeepFace
@@ -61,7 +57,7 @@ Le système s’appuie sur plusieurs modules complémentaires :
 │     ├── tts.py               # Text-to-Speech
 │     └── main.py              # Script principal (fusion des modules)
 │
-├── requirements.txt           # Librairies et utilitaires utilisés pour le projet
+├── requirements.txt
 └── README.md
 ```
 
@@ -76,7 +72,7 @@ Le système s’appuie sur plusieurs modules complémentaires :
 | **Audio → Texte** | Whisper (OpenAI) | Reconnaissance vocale haute précision |
 | **Texte → Voix** | pyttsx3 / gTTS | Génération d’une voix naturelle |
 | **Base de données** | JSON / SQLite | Stockage des profils et embeddings |
-| **Interface** | Flask / Streamlit | Visualisation et interaction utilisateur |
+| **Interface (optionnelle)** | Flask / Streamlit | Visualisation et interaction utilisateur |
 
 ---
 
